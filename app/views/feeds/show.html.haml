@@ -1,0 +1,6 @@
+= render :partial => 'feeds/head', :locals => {:@feed_lists => @feed_lists}
+
+.feeds
+  - @feeds.each do |feed|
+    .feed
+      = print_feed feed

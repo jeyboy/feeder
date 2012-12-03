@@ -1,0 +1,31 @@
+CNN:
+  url:
+    http://rss.cnn.com/rss/edition.rss
+  additional:
+
+
+ITunes:
+  url:
+    https://itunes.apple.com/WebObjects/MZStore.woa/wpa/MRSS/newreleases/sf=143441/limit=25/rss.xml
+  additional:
+    category
+    content:encoded
+    itms:artist
+    itms:artistLink
+    itms:album
+    itms:albumLink
+    itms:albumPrice
+    itms:coverArt
+
+TuT:
+  url:
+    http://news.tut.by/rss/index.rss
+  additional:
+    enclosure
+    media:conten
+
+FeedBurner:
+  url:
+    http://feeds.feedburner.com/PaulDixExplainsNothing
+  additional:
+

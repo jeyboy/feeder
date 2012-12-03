@@ -1,0 +1,5 @@
+= form_for :feed, :url => feeds_path do |f|
+  = f.label "Select RSS"
+  = f.select :name, options_from_collection_for_select(FEEDS, :first, :first)
+
+  = f.submit "Get"
